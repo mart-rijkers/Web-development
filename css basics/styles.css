@@ -1,0 +1,13 @@
+body{
+    color:darkblue;
+}
+
+.black-border{
+    border: 5px solid rgb(51, 40, 40);
+}
+
+#green-back{
+    background-color: green;
+    padding: 5px;
+    border-radius: 10px;
+}
