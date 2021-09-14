@@ -1,0 +1,40 @@
+body{
+    color:darkblue;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.black-border{
+    border: 5px solid rgb(51, 40, 40);
+}
+
+.nice-border{
+    border: 5px solid purple;
+/* Deze werken niet meer vanwege de shorthand padding notatie */
+/*     padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px; */
+
+/* shorthand */
+    padding: 5px 10px;
+}
+
+.automargin{
+    border: 5px solid blue;
+    margin: 0 auto;
+    width: 90%;
+    padding: 5px;
+    margin-inline-start: 5px;
+}
+
+.automargin li {
+/*  display: inline; */
+    padding: 5px;
+}
+#green-back{
+    background-color: green;
+    padding: 5px;
+    border-radius: 10px;
+}
