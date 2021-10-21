@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Formulier </title>
+</head>
+
+<body>
+    <heading>
+        Vul het formulier in om contact op te nemen<br>
+    </heading>
+    <main>
+        <form name="complex formulier" method="POST" data-netlify="true">
+            <label>Naam:</label> &nbsp;<input name="naam" type="text" /><br />
+            <label>Email:</label> &nbsp;<input name="email" type="email" /><br />
+            <label>Telefoonnr:</label> &nbsp;<input name="telnr" type="tel" pattern="06-[0-9]{8}" /><br />
+            <label>Leeftijd:</label> &nbsp;<input name="leeftijd" type="number" /><br />
+            <label>Geboortedatum:</label> &nbsp;<input name="gebdatum" type="date" /><br />
+            <label>Geslacht:</label> &nbsp;
+            <input name="geslacht" type="radio" id="man" value="Man"> <label for="man">Mannelijk</label><br />
+            <input name="geslacht" type="radio" id="vrouw" value="Vrouw"> <label for="vrouw">Vrouwelijk</label><br />
+            <input name="geslacht" type="radio" id="overig" value="Anders"> <label for="overig">Anders / wil niet
+                zeggen</label><br />
+            <label>Favoriete keuken:</label>
+            <input name="keuken" type="checkbox" id="IT" value="Italiaans"><label for="IT">Italiaans</label><br />
+            <input name="keuken" type="checkbox" id="FR" value="Frans"><label for="FR">Frans</label><br />
+            <input name="keuken" type="checkbox" id="E" value="Spaans"><label for="E">Spaans</label><br />
+            <input name="keuken" type="checkbox" id="SA" value="Arabisch"><label for="SA">Arabisch</label><br />
+            <label>Favoriete kleur schort</label><input name="schort" type="color" id="schort"><br />
+            <label>Korte biografie:</label><textarea name="biografie" type="textarea" rows="4" cols="50"
+                id="biografie"></textarea><br />
+            <label>Laad hier je laatste recept</label><input name="recept" type="file" id="recept"><br />
+            <label>URL naar recepten website:</label><input name="website" type="url" id="website"><br />
+            <button id="reset" type="reset">Formulier resetten</button>
+            <button id="submit" type="submit">Versturen</button>
+
+
+        </form>
+    </main>
+    <nav>
+        <a href="index.html">Ga terug naar de Home pagina</a><br>
+    </nav>
+</body>
+
+</html>
